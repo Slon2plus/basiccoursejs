@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var tempC = +prompt("Введите температуру по цельсию"); // 1 задание
+        var tempF = (9 / 5) * tempC + 32;
+        alert("Температура по фаренгейту равна - " + tempF);
+        var a = +prompt("Введите число а");                    // 2 задание
+        var b = +prompt("Введите число b");
+        a = a + b; 
+        b = a - b; 
+        a = a - b;
+        alert("a = "+ a +"\n" + "b =" + b);                    // 3 задание
+        var name = "Василий";
+        var admin = name;
+        alert("\"Василий\"");
+
+        /*1000 + "108" 
+        В данном примере плюс является не сложением, а соеднинением.
+        Ответ 1000108                                                 4 задание
+        */
+        /* Атрибут async означает, что скрипт абсолютно независим. 
+
+        Атрибут defer сообщает браузеру, что он должен продолжать обрабатывать страницу и загружать скрипт в фоновом режиме, а затем запустить этот скрипт, когда он загрузится. но до события DOMContentLoaded. Отложенные с помощью defer скрипты сохраняют порядок относительно друг друга, как и обычные скрипты.
+        */
+    </script>
+    
+</body>
+</html>
